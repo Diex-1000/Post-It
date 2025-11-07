@@ -14,7 +14,7 @@ export default function Index() {
       style= {styles.button}
       onPress={()=>router.push('./notes')}
       >
-      <Text style={{color:"white"}}>GIVE IT A SHOT</Text>
+      <Text style={{color:"white"}}>Post It</Text>
       </TouchableOpacity>
     </View>
   );
